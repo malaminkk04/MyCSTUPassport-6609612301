@@ -1,0 +1,27 @@
+body {
+    background-color: #dfebeb;
+}
+h1 {
+    text-align: center;
+    font-size: 2cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f1f7b5;
+    background-color: #9ea1d4;
+}
+#para1 {
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: fantasy;
+    color:#fd8a8a;
+    line-height: 5px;
+}
+img {
+    width: 400px;
+    height: 500px;
+}
+.one {
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.7cm;
+    color: #000;
+}

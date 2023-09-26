@@ -1,0 +1,42 @@
+body {
+    background-color: #dfebeb;
+}
+h1 {
+    text-align: center;
+    font-size: 2cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f1f7b5;
+    background-color: #9ea1d4;
+}
+#para1 {
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: fantasy;
+    color:#fd8a8a;
+}
+#para2 {
+    text-align: center;
+    font-size: 1cm;
+    font-family: monospace;
+    color:#fd8a8a;
+    background-color: #f1f7b5;
+}
+img {
+    width: 500px;
+    height: 400px;
+}
+#para3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 0.5cm;
+    text-align: center;
+}
+#para4 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 0.5cm;
+    text-align: center;
+}
+#para5 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 0.5cm;
+    text-align: center;
+}
