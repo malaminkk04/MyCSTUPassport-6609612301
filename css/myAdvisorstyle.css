@@ -1,44 +1,41 @@
-body {
-    background-color: #dfebeb;
-}
 h1 {
     text-align: center;
-    font-size: 2cm;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f1f7b5;
-    background-color: #9ea1d4;
+    font-size: 70px;
+    font-family: monospace;
+    color: #dfaf5e;
+    background-color: #6d152b;
 }
 #para1 {
     text-align: center;
-    font-size: 1.5cm;
-    font-family: fantasy;
-    color:#fd8a8a;
+    font-size: 60px;
+    font-family: monospace;
+    color:#61714d;
     line-height: 5px;
 }
 #para2 {
     text-align: center;
-    font-size: 1cm;
+    font-size: 40px;
     font-family:monospace ;
-    color: #fd8a8a;
+    color: #61714d;
     line-height: 5px;
 }
 #para3 {
     text-align: center;
-    font-size: 0.5cm;
+    font-size: 30px;
     font-family:monospace ;
-    color: #fd8a8a;
+    color: #8fae93;
 }
 h2 {
     text-align: left;
-    font-size: 1cm;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    background-color: #a8d1d1;
+    font-size: 30px;
+    font-family: monospace;
+    color: #6d152b;
+    background-color: #dfaf5e;
 }
 ul {
     text-align: left;
-    font-size: 0.5cm;
+    font-size: 20px;
     font-family:monospace;
-    color: #9ea1d4; 
+    color: #61714d; 
     
 }
