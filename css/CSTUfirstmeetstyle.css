@@ -1,25 +1,25 @@
 body {
-    background-color: #dfebeb;
+    background-color: white;
 }
 h1 {
     text-align: center;
-    font-size: 2cm;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f1f7b5;
-    background-color: #9ea1d4;
+    font-size: 70px;
+    font-family: monospace;
+    color: #dfaf5e;
+    background-color: #6d152b;
 }
 #para1 {
     text-align: center;
-    font-size: 1.5cm;
-    font-family: fantasy;
-    color:#fd8a8a;
+    font-size: 60px;
+    font-family: monospace;
+    color:#61714d;
 }
 #para2 {
     text-align: center;
-    font-size: 1cm;
+    font-size: 40px;
     font-family: monospace;
-    color:#fd8a8a;
-    background-color: #f1f7b5;
+    background-color:#c2a887;
+    color: #6d152b;
 }
 img {
     width: 500px;
@@ -27,16 +27,16 @@ img {
 }
 #para3 {
     font-family: 'Kanit', sans-serif;
-    font-size: 0.5cm;
+    font-size: 20px;
     text-align: center;
 }
 #para4 {
     font-family: 'Kanit', sans-serif;
-    font-size: 0.5cm;
+    font-size: 20px;
     text-align: center;
 }
 #para5 {
     font-family: 'Kanit', sans-serif;
-    font-size: 0.5cm;
+    font-size: 20px;
     text-align: center;
 }

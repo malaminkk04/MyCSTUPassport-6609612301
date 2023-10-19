@@ -1,3 +1,6 @@
+body {
+    background-color: white;
+}
 h1 {
     text-align: center;
     font-size: 70px;
@@ -7,16 +10,16 @@ h1 {
 }
 #para1 {
     text-align: center;
-    font-size: 60cm;
+    font-size: 60px;
     font-family: monospace;
     color:#61714d;
 }
 #para2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: monospace;
     color:#6d152b;
-    background-color: #dfaf5e;
+    background-color: #c2a887 ;
 }
 img {
     width: 500px;
@@ -24,16 +27,16 @@ img {
 }
 #para3 {
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 #para4 {
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 #para5 {
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
