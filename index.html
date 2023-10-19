@@ -1,131 +1,160 @@
 <html>
-    <head>
-    <meta name="viewport"
+  <head>
+    <meta name="viewport" 
     content="width=device-width, initial-scale=1.0">
-        <style>
-            body {background-color: #dfebeb;}
-            .row::after{
-                content: "";
-                clear: both;
-                display: table;
-                }
-            [class*="col-"]{
-                width: 100%;
-            }
-            @media only screen and (min-width:600px) {
-                /*tablets:*/
-            .col-1 {width: 8.33%;}
-            .col-2 {width: 16.66%;}
-            .col-3 {width: 15%;}
-            .col-4 {width: 33.33%;}
-            .col-5 {width: 41.66%;}
-            .col-6 {width: 50%;}
-            .col-7 {width: 58.33%;}
-            .col-8 {width: 66.66%;}
-            .col-9 {width: 75%;}
-            .col-10 {width: 83.33%;}
-            .col-11 {width: 91.66%;}
-            .col-12 {width: 100%;}
-            }
-            @media only screen and (min-width:768px){
-                /*desktop*/
-            .col-1 {width: 8.33%;}
-            .col-2 {width: 16.66%;}
-            .col-3 {width: 15%;}
-            .col-4 {width: 33.33%;}
-            .col-5 {width: 41.66%;}
-            .col-6 {width: 50%;}
-            .col-7 {width: 58.33%;}
-            .col-8 {width: 66.66%;}
-            .col-9 {width: 75%;}
-            .col-10 {width: 83.33%;}
-            .col-11 {width: 91.66%;}
-            .col-12 {width: 100%;}
-            }
-            h1{text-align: center;
-               color: #f1f7b5;
-               border: inset;
-               background-color:#9ea1d4;
-               text-transform: uppercase;
-               font-size: 100px;
-               font-family: Verdana, Geneva, Tahoma, sans-serif;}
-            #para1{text-align: center;
-                font-size: 40px;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-                color: #fd8a8a;}
-            .content {
-                margin-top: 0px;
-            }
-            h2{
-               background-color: #a8d1d1;
-               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-               font-size: 30px;
-            }
-            .more ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-            }
-            .more li {
-                padding: 10px;
-                padding-right: 1px;
-                margin-top: 80px;
-                background-color: #FFC0CB;
-                color: #9ea1d4;
-                font-family: monospace;
-                font-size: 20px;
-            }
-            .more li:hover {
-                background-color: #9ea1d4;
-            }
-        </style>
-    </head>
-    <body>
-        
-        <div>
-            <h1>my cstu passport</h1>
-        </div>
-            <div class="col-3 more">
-                <ul>
-                <li><a href="html/myAdvisor.html"> My advisor </a></li>
-                <li><a href="html/myActivities.html"> My activities </a></li>
-                <li><a href="html/CSTUfirstmeet.html"> CSTU first meet </a></li>
-                <li><a href="html/HLfirstmeet.html"> Higher level first meet </a></li>
-                </ul>
-            </div>  
+    <style>
+    * {box-sizing: border-box;}
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      }
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+      }
 
-            <div class="content">
-                <p id="para1"><strong>NICKNAME</strong><em> Mink</em>
-                <strong>NAME</strong><em> Apisada </em><em> Chaisena </em>
-                </p>
-                <center>
-                <left><img src="image/image01.jpg";
-                alt="Mink Apisada Chaisena" width="400px" height="500px"></left>
-                <right><video src="VDO/vid01.mov" width="400px" height="500px" controls></video></right>
-                </center>
-            </div>
-        
-    <div class="row">
-        <div class="col-9">
-            <h2><u>ABOUT ME</u></h2>
-            <left><ul>
-                <li>Mink</li>
-                <li>Apisada Chaisena</li>
-                <li>18 years old</li>
-                <li>26 october 2004</li>
-                <li>bangkok,thailand</li>
-                <li>comsci TU.</li>
-                <li>graduated school</li>
-                <ol>
-                    <li>prayaprasert (krajang singhaseni)school</li>
-                    <li>bodindecha (sing singhaseni)school</li>
-                </ol>
-                <li><p>&#128131;</p>dance<br><p>&#127946;</p> swimming</li>
-            </ul></left>
-        </div>
+html {
+  font-family: monospace;
+}
+
+.head {
+  background-color: #6d152b;
+  color: #dfaf5e;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 7px;
+  margin-top: 90px;
+  background-color: #dfaf5e;
+  color: #c2a887;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #c2a887;
+}
+
+.me {
+    font-size: 20px;
+    text-align: center;
+}
+
+.aside {
+  background-color: #dfaf5e;
+  padding: 20px;
+  color: #61714d;
+  text-align: left;
+  font-size: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #61714d;
+  color: #dfaf5e;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* mobile */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) 
+{
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) 
+{
+  /* desktop */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="head">
+  <h1> MY CSTU PASSPORT </h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+        <li><a href="html/myAdvisor.html"> My advisor </a></li>
+        <li><a href="html/myActivities.html"> My activities </a></li>
+        <li><a href="html/CSTUfirstmeet.html"> CSTU first meet </a></li>
+        <li><a href="html/HLfirstmeet.html"> Higher level first meet </a></li>
+    </ul>
+  </div>
+
+<div class="me">
+  <div class="col-6 col-s-9">
+    <h1><strong>NICKNAME</strong><em> Mink</em>
+      <strong>NAME</strong><em> Apisada </em><em> Chaisena </em></h1>
+    <p> <left><img src="image/image01.jpg";alt="Mink Apisada Chaisena" width="400px" height="500px"></left>
+        <right><video src="VDO/vid01.mov" width="400px" height="500px" controls></video></right> </p>
+  </div>
+</div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2><u>ABOUT ME</u></h2>
+      <left><ul>
+        <li>Mink</li>
+        <li>Apisada Chaisena</li>
+        <li>18 years old</li>
+        <li>26 october 2004</li>
+        <li>bangkok,thailand</li>
+        <li>comsci TU.</li>
+        <li>graduated school</li>
+        <ol>
+            <li>prayaprasert (krajang singhaseni)school</li>
+            <li>bodindecha (sing singhaseni)school</li>
+        </ol>
+        <li><p>&#128131;</p>dance<br><p>&#127946;</p> swimming</li>
+    </ul></left>
     </div>
+  </div>
+</div>
 
+<div class="footer">
+  <p> NICE TO MEET YOU. HAVE A NICE DAY :3 </p>
+</div>
 
-        
-    </body>
+</body>
 </html>
